@@ -15,14 +15,14 @@ const CALENDAR = [
     highlight: true,
   },
   {
+    date: "11 octobre 2026",
+    name: "La Spinassienne — Semi-marathon d'Épinay-sur-Seine",
+    status: "Reprise sur route",
+  },
+  {
     date: "3 octobre 2026",
     name: "Foulées Nocturnes de Franconville — 10 km",
     status: "Objectif intermédiaire · sub 38 min",
-  },
-  {
-    date: "Septembre 2026",
-    name: "La Spinassienne — Semi-marathon d'Épinay-sur-Seine",
-    status: "Reprise sur route",
   },
   {
     date: "12 juillet 2026",
@@ -163,10 +163,6 @@ export function Athlete() {
                 height={800}
                 className="aspect-[3/2] w-full object-cover"
               />
-              <div className="absolute inset-x-0 bottom-0 bg-[image:var(--gradient-dark)] p-5">
-                <p className="font-display text-lg text-white">Arrivée du Triathlon L — OpenLakes Lyon</p>
-                <p className="text-sm text-white/75">Mai 2026 · 5h12:16</p>
-              </div>
             </div>
 
 
