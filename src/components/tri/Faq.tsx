@@ -18,7 +18,7 @@ const FAQ = [
   },
   {
     q: "Où va mon argent ?",
-    a: "Chaque don finance directement le projet sportif. Concrètement, un dossard de semi-marathon coûte une centaine d'euros, un triathlon L environ 250 €, et les épreuves les plus prestigieuses peuvent monter jusqu'à 600 €. S'ajoutent plusieurs paires de chaussures sur la saison, l'abonnement piscine, l'entretien du vélo, la nutrition, et l'accompagnement du coach. Vos dons couvrent donc des dépenses réelles et suivies.",
+    a: "Chaque don finance directement le projet sportif. Concrètement, un dossard de semi-marathon coûte une centaine d'euros, un triathlon L environ 250 €, et les épreuves les plus prestigieuses peuvent monter jusqu'à 600 €. S'ajoutent plusieurs paires de chaussures sur la saison, l'abonnement natation, l'entretien du vélo, la nutrition, et la rémunération du coach. Vos dons couvrent donc des dépenses réelles et suivies.",
   },
   {
     q: "Puis-je faire un don en tant qu'indépendant ?",
@@ -30,11 +30,11 @@ const FAQ = [
   },
   {
     q: "Mon entreprise peut-elle être visible sur le projet ?",
-    a: "Selon les modalités du soutien, le nom ou le logo de l'entreprise peut être associé au projet dans le respect du cadre applicable au mécénat.",
+    a: "Oui, tout à fait. Il est tout à fait possible d'inscrire le nom de votre entreprise en tant que sponsor du projet, et nous pouvons également vous fournir des supports de communication à partager sur vos réseaux et en interne dans votre entreprise.",
   },
   {
     q: "Comment recevoir mon reçu fiscal ?",
-    a: "Un justificatif fiscal est délivré pour les dons éligibles.",
+    a: "Un justificatif fiscal est délivré pour les dons éligibles. Il vous est envoyé sous 48h à l'adresse email indiquée lors de votre don.",
   },
   {
     q: "Puis-je faire un don par virement ou par chèque ?",
