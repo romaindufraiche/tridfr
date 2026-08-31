@@ -1,7 +1,7 @@
 export const DONATION_URL = "https://www.paypal.com/ncp/payment/9LAKXT7CCFZGG";
 
 export const PAYPAL_CLIENT_ID =
-  "BAAcIS9UvYL6RhDngJoRK_1JZFNcZJ7lRptbhNzvXPchTxYidLp3_boypJllJUM2tWt2Nu0kzQu2mhrqL0";
+  "AYVCXQAo9v0Zf-iUkkaKb8xacDycnuc-amODcHieHaoTTS3EO0gsf1n44TgUYagC-WAK0tJcohCNn2DS";
 
 export const CONTACT_EMAIL = "romain.dufraiche@gmail.com";
 
