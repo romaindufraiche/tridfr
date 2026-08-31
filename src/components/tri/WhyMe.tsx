@@ -23,7 +23,7 @@ export function WhyMe() {
   return (
     <section id="pourquoi" className="scroll-mt-16 bg-background">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-24">
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
           <Reveal className="h-full">
             <div className="surface-card relative h-full overflow-hidden">
               <img
@@ -34,12 +34,6 @@ export function WhyMe() {
                 height={1688}
                 className="aspect-[3/4] w-full object-cover object-center lg:h-full"
               />
-              <div className="absolute inset-x-0 bottom-0 bg-[image:var(--gradient-dark)] p-5">
-                <p className="font-display text-xl text-white">Romain Dufraiche</p>
-                <p className="text-sm text-white/75">
-                  Triathlète · 23 ans · Sannois, Val-d'Oise (95)
-                </p>
-              </div>
             </div>
           </Reveal>
 
