@@ -92,6 +92,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
+    scripts: [
+      {
+        children: `try{fetch('/track/visite.php?page='+encodeURIComponent(location.pathname),{method:'POST',keepalive:true}).catch(function(){});}catch(e){}`,
+      },
+    ],
   }),
 
   shellComponent: RootShell,
