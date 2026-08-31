@@ -94,7 +94,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     scripts: [
       {
-        children: `try{fetch('/track/visite.php?page='+encodeURIComponent(location.pathname),{method:'POST',keepalive:true}).catch(function(){});}catch(e){}`,
+        // Identifiant de visiteur stocké en local (pas un cookie) pour
+        // distinguer une vraie personne revenant plusieurs fois d'une
+        // nouvelle visite. Envoyé à /track/visite.php sur OVH.
+        children: `try{var k='tridfr_vid';var id=localStorage.getItem(k);if(!id){id=(self.crypto&&crypto.randomUUID)?crypto.randomUUID():(Math.random().toString(36).slice(2)+Date.now());localStorage.setItem(k,id);}fetch('/track/visite.php?page='+encodeURIComponent(location.pathname)+'&v='+encodeURIComponent(id),{method:'POST',keepalive:true}).catch(function(){});}catch(e){}`,
       },
     ],
   }),
